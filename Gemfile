@@ -1,5 +1,9 @@
 source 'https://rubygems.org'
 
+#ignore cloud9 metedata files -  in .gitignore(/ .c9)
+#git rm -r --cached .
+#git status, git commit -m 'ignored c9 fiels'
+
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.6'
